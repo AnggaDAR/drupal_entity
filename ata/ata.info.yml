@@ -1,5 +1,0 @@
-name: ATA
-type: module
-description: 'Barebones ATA entity'
-package: Custom
-core: 8.x

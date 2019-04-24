@@ -1,23 +1,24 @@
 <?php
 
-namespace Drupal\ata\Controller;
+namespace Drupal\hello_world\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
-/**
- * Defines ATAController class.
+/** 
+ * Defines HelloController class.
  */
-class ATAController extends ControllerBase {
+
+class HelloController extends ControllerBase {
     /**
      * Display the markup
      * 
      * @return array
-     *  Return markup array
+     *    Return markup array 
      */
     public function content() {
         return [
             '#type' => 'markup',
-            '#markup' => $this->t('ATA'),
+            'markup' => $this->t('Hello, World!'),
         ];
-    }
+    } 
 }
 ?>
